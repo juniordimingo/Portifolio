@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juliano Bicalho Di Mingo Junior - Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="topo">
+<div class="menu-container">
+<nav class="links-menu">
+<a href="#sobre">Sobre Mim</a>
+<a href="#habilidades">Habilidades</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</nav>
+<div id="theme-toggle" class="switch-container" role="button" aria-label="Alternar Tema">
+<div class="switch-track">
+<div class="switch-thumb"></div>
+</div>
+</div>
+</div>
+</header>
+
+<main class="conteudo">
+
+<section class="banner">
+<div class="banner-texto">
+<h1>JULIANO BICALHO<br>DI MINGO JÚNIOR</h1>
+<p class="subtitulo">TÉCNICO EM INFORMÁTICA | 2º ANO COTEMIG</p>
+</div>
+<div class="foto-perfil">
+<img src="eu.png" alt="Foto de Juliano Bicalho">
+</div>
+</section>
+
+<section id="sobre" class="secao">
+<h2>// SOBRE MIM</h2>
+<p class="sobremim">
+Fala, sou o Juliano Bicalho Di Mingo Junior, tenho 17 anos e sou estudante do 2º ano do Ensino Técnico em Informática no COTEMIG. 
+Tenho grande interesse na área de desenvolvimento de sistemas e programação, com foco na criação de projetos utilizando tecnologias 
+como HTML, CSS, MySQL e C#. No dia a dia de trabalho e estudos, valorizo muito a colaboração em equipa, mantendo a paciência na resolução 
+de problemas complexos e procurando exercer a liderança com boa comunicação e proximidade com todos.
+</p>
+</section>
+
+<section id="habilidades" class="secao">
+<h2>// HABILIDADES TÉCNICAS</h2>
+<div class="skills-grid">
+
+<div class="skill-item">
+<div class="skill-header">
+<span>HTML</span>
+<span>49%</span>
+</div>
+<div class="progress-bar">
+<div class="progress" style="width: 49%;"></div>
+</div>
+</div>
+
+<div class="skill-item">
+<div class="skill-header">
+<span>CSS</span>
+<span>69%</span>
+</div>
+<div class="progress-bar">
+<div class="progress" style="width: 69%;"></div>
+</div>
+</div>
+
+<div class="skill-item">
+<div class="skill-header">
+<span>MYSQL</span>
+<span>75%</span>
+</div>
+<div class="progress-bar">
+<div class="progress" style="width: 75%;"></div>
+</div>
+</div>
+
+<div class="skill-item">
+<div class="skill-header">
+<span>C#</span>
+<span>54%</span>
+</div>
+<div class="progress-bar">
+<div class="progress" style="width: 54%;"></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="projetos" class="secao">
+<h2>// PROJETOS RECENTES</h2>
+<div class="projetos-grid">
+<div class="card-projeto">
+<img src="roftop.png" alt="Projeto Rooftop">
+<div class="info-projeto">
+<h3>Projeto Restaurante Rooftop</h3>
+<p>Site institucional e sistema de reservas para restaurante.</p>
+</div>
+</div>
+<div class="card-projeto">
+<img src="e-comerc.jpg" alt="Projeto E-commerce Hardware">
+<div class="info-projeto">
+<h3>Catálogo de Hardware</h3>
+<p>E-commerce interativo para venda de peças de informática.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contato" class="secao">
+<h2>// CONTATO</h2>
+<div class="box-form">
+<form id="contact-form">
+<div class="form-row">
+<div class="campo">
+<input type="text" id="nome" required placeholder="NOME">
+</div>
+<div class="campo">
+<input type="tel" id="telefone" maxlength="15" required placeholder="TELEFONE">
+</div>
+</div>
+<div class="campo">
+<input type="email" id="email" required placeholder="E-MAIL">
+</div>
+<div class="campo">
+<textarea id="mensagem" rows="10" required placeholder="ASSUNTO"></textarea>
+</div>
+<button type="submit" class="btn-enviar">ENVIAR MENSAGEM</button>
+</form>
+</div>
+</section>
+
+</main>
+
+<footer class="rodape">
+<div class="container-rodape">
+<p>Juliano Bicalho &copy; 2026</p>
+<div class="links-sociais">
+<a href="https://github.com/juniordimingo" target="_blank">
+<i class="fa-brands fa-github"></i> GitHub
+</a>
+</div>
+<p>dimingo.infor@gmail.com</p>
+</div>
+</footer>
+
+<div id="custom-modal" class="modal">
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+<h3>Mensagem Enviada!</h3>
+<p>Obrigado pelo contato, Juliano responderá em breve.</p>
+<button id="modal-ok-btn" class="btn-enviar" type="button">OK</button>
+</div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
